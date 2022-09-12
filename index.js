@@ -13,7 +13,7 @@ app.listen(3000, () => {
 const Discord = require('discord.js')
 const client = new Discord.Client()
 
-const prefix = process.env.prefix
+const prefix = "!g"
 
 const devs = ["604329623215407114"]
 
@@ -208,7 +208,7 @@ client.giveawaysManager.edit(messageID, {
         });
 }
 });
-client.login(process.env.token).catch(() => {
+client.login("OTk2MjQyOTIxNjcyMTUxMTYw.GkL30k.n7M7RxJHtAtr-a3mw4mrSVhc6Clj5fD9K-ceEc").catch(() => {
 console.log("Token Invalid")
 })
 
